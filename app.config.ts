@@ -3,6 +3,7 @@ export default defineAppConfig({
   docus: {
     title: 'My Notes',
     description: 'The best place to start your documentation.',
+    image: '/public/cover.png',
     url: 'https://prakhar.pro',
     aside: {
       level: 0,
@@ -20,7 +21,7 @@ export default defineAppConfig({
       fluid: true
     },
     footer: {
-      credits: {text: 'Made by Prakhar Saxena', icon: 'IconDocus',},
+      credits: {text: 'Made by Prakhar Saxena', icon: 'IconDocus', href: 'https://prakhar.pro'},
       fluid: true
     },
   }
