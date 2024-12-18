@@ -3,7 +3,7 @@ export default defineAppConfig({
   docus: {
     title: 'My Notes',
     description: 'The best place to start your documentation.',
-    image: '/public/cover.png',
+    image: 'public/cover.png',
     url: 'https://prakhar.pro',
     aside: {
       level: 0,
